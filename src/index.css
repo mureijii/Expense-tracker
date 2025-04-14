@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.expense-form input {
+  margin: 0 5px 10px 0;
+  padding: 8px;
+}
+
+.expense-form button {
+  padding: 8px 12px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.expense-table th button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
